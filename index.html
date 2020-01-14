@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="main">
+  <head>
+    <meta charset="UTF-8" />
+    <title>my first E-commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--bootstrap3-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <!--  owl carousel-->
+    <link rel="stylesheet" href="style/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl.theme.default.min.css" />
+    <!--  custom style-->
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default white-background visible-lg-block">
+      <div class="container">
+        <h1 class="navbar-brand margin31">
+          <i class="fas fa-dumpster-fire yellow  "></i>
+          Hozain Shop
+        </h1>
+        <ul class="nav navbar-nav navbar-left margin31">
+          <li><a href="#">home</a></li>
+          <li><a>about us</a></li>
+          <li><a>blog</a></li>
+          <li class="dropdown">
+            <a
+              href="#"
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Pages <span class="caret"></span
+            ></a>
+            <!-- angularjs custom component -->
+            <drop-down-menu class="dropdown-menu"></drop-down-menu>
+          </li>
+          <li><a>features</a></li>
+          <li><a>contact us</a></li>
+        </ul>
+        <div class="navbar-right flex-inline margin31">
+          <i
+            class="fas fa-headset yellow"
+            style="font-size:30px;padding: 10px;"
+          ></i>
+          <h4>
+            Support (+02) 0123456789
+            <br />
+            Email: info@hozain.com
+          </h4>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-default yellow-background ">
+      <div class="container">
+        <div class="navbar-header ">
+          <button
+            type="button"
+            class="navbar-toggle
+        collapsed "
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden-lg" href="#">Hozain Shop</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div
+          class="collapse navbar-collapse  "
+          id="bs-example-navbar-collapse-1"
+        >
+          <ul class="nav navbar-nav">
+            <li class="dropdown open">
+              <a
+                href="#"
+                class="dropdown-toggle big-font"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >categories <span class="caret"></span
+              ></a>
+              <!-- angular js component -->
+              <drop-down-menu
+                class="dropdown-menu border-yellow"
+              ></drop-down-menu>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control border-raduis-left"
+                placeholder="Search"
+              />
+              <div class="input-group-btn ">
+                <button
+                  class="btn btn-default border-raduis-right darkgray-background "
+                  type="submit"
+                >
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right big-font">
+            <li>
+              <a href="#">
+                <i class="fas fa-user-circle gray "></i>
+                sign in</a
+              >
+            </li>
+            <li>
+              <a href="http://">
+                <span class="badge">12</span>
+                <i class="fas fa-cart-arrow-down gray"></i>
+                cart</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <ui-view></ui-view>
+
+    <!-- lib files-->
+    <script src="lib/jquery-2.1.4.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9a8e4e5da1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="lib/bootstrap.min.js"></script>
+
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+    <script src="lib/owl.carousel.min.js"></script>
+    <script src="lib/angular-owl-carousel-2.js"></script>
+    <!--src files-->
+    <!--modules-->
+    <script src="src/common/modules/common.module.js"></script>
+    <script src="src/main.module.js"></script>
+    <script src="src/routes.js"></script>
+    <!--common-->
+    <script src="src/common/components/spinner/spinner.component.js"></script>
+    <script src="src/common/services/items.service.js"></script>
+    <script src="src/common/components/dropDown/dropDown.component.js"></script>
+    <script src="src/common/components/imagesSlider/imagesSlider.component.js"></script>
+    <script src="src/common/components/productsSlider/productsSlider.component.js"></script>
+
+    <!--views-->
+    <script src="src/views/home/myHome.controller.js"></script>
+    <script src="src/views/productSlider/productSlider.controller.js"></script>
+    <!--<script src="src/"></script>-->
+    <!--<script src="src/"></script>-->
+    <!--<script src="src/"></script>-->
+    <!--<script src="src/"></script>-->
+    <!--<script src="src/"></script>-->
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f43b1d9f-0433-43ae-b006-aea7ba45e9ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V435odOnjZMcCIRrEkrUcv4SzV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Mountain\AppData\Roaming\npm\node_modules\prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mountain\Desktop\first website\src\views" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f43b1d9f-0433-43ae-b006-aea7ba45e9ac" name="Default Changelist" comment="" />
+      <created>1576498359542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576498359542</updated>
+      <workItem from="1576498362747" duration="3620000" />
+      <workItem from="1576503879612" duration="51000" />
+      <workItem from="1576503951071" duration="5433000" />
+      <workItem from="1576514435739" duration="12091000" />
+      <workItem from="1576585979347" duration="2128000" />
+      <workItem from="1577388671732" duration="95000" />
+      <workItem from="1577388897821" duration="4428000" />
+      <workItem from="1577449667839" duration="20755000" />
+      <workItem from="1577708624447" duration="2890000" />
+      <workItem from="1577815801153" duration="609000" />
+      <workItem from="1578419098730" duration="2769000" />
+      <workItem from="1578442708763" duration="6674000" />
+      <workItem from="1578450623283" duration="602000" />
+      <workItem from="1578486178269" duration="10834000" />
+      <workItem from="1578583785970" duration="2139000" />
+      <workItem from="1578593456766" duration="169000" />
+      <workItem from="1578594107168" duration="645000" />
+      <workItem from="1578594823262" duration="2731000" />
+      <workItem from="1578599882969" duration="8739000" />
+      <workItem from="1578656188250" duration="1741000" />
+      <workItem from="1578660360765" duration="4532000" />
+      <workItem from="1578686065672" duration="1204000" />
+      <workItem from="1578692366638" duration="4874000" />
+      <workItem from="1578781403275" duration="5704000" />
+      <workItem from="1578791833646" duration="2287000" />
+      <workItem from="1578845332371" duration="1578000" />
+      <workItem from="1578875065543" duration="614000" />
+      <workItem from="1578934542476" duration="2042000" />
+      <workItem from="1579015153644" duration="597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
